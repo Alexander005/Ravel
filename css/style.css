@@ -1927,7 +1927,14 @@ body._lock {
   z-index: 1;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 991.98px) {
+  .quantity__button:hover::before,
+  .quantity__button:hover::after {
+    background-color: black;
+  }
+}
+
+@media (min-width: 992px) {
   .header__account:hover {
     color: #FF715B;
   }
@@ -1950,6 +1957,14 @@ body._lock {
 
   .footer__link:hover:after {
     background-color: #FF715B;
+  }
+
+  .select__option:hover {
+    background: #d9d9d9;
+  }
+
+  .checkbox a:hover {
+    text-decoration: none;
   }
 
   .slider__btn:hover {
@@ -1984,23 +1999,6 @@ body._lock {
 
   .prices__btn:hover {
     background-color: #cc4d3a;
-  }
-}
-
-@media (min-width: 991.98px) {
-  .quantity__button:hover::before,
-  .quantity__button:hover::after {
-    background-color: black;
-  }
-}
-
-@media (min-width: 992px) {
-  .select__option:hover {
-    background: #d9d9d9;
-  }
-
-  .checkbox a:hover {
-    text-decoration: none;
   }
 }
 
